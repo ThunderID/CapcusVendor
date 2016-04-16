@@ -1,0 +1,3 @@
+@push('content.vendors')
+@endpush
+	

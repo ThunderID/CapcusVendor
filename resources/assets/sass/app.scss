@@ -1,0 +1,35 @@
+@import "bootstrap/bootstrap";
+@import "color";
+@import "typography";
+
+html, body { 
+	padding-top:40px;
+	background: $gray-lighter;
+}
+
+.navbar { 
+	border-bottom:1px solid #ccc;
+}
+
+.btn-menu-mobile { 
+	border-radius:0px; 
+	padding: 15px 20px;
+	margin: -10px 0 -9px -16px; 
+	border-right:1px solid #ccc; 
+	background:#000; 
+	color:white !important;
+
+	&:hover { 
+		color:white;
+		background: #aaa;
+	}
+}
+
+.menu-mobile { 
+	margin-top:50px;
+	a:link, a:hover, a:visited { 
+		color:black !important;
+	}
+}
+
+canvas { display:block;}
